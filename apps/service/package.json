@@ -1,0 +1,11 @@
+{
+    "name": "@secure-borrow/service",
+    "main": "./src/app.ts",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon --exec tsx --no-warnings --experimental-specifier-resolution=node ./src/app.ts"
+    },
+    "dependencies": {
+        "@secure-borrow/common": "workspace:^"
+    }
+}

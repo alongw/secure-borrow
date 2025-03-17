@@ -1,0 +1,4 @@
+{
+    "name": "@secure-borrow/common",
+    "main": "./src/index.ts"
+}
