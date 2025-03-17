@@ -1,3 +1,5 @@
 import { logger } from '@secure-borrow/common'
 
-logger.info('Hello, world!')
+logger.info('[System] Starting the service...')
+
+import('./utils/server')

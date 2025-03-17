@@ -6,6 +6,10 @@
         "dev": "nodemon --exec tsx --no-warnings --experimental-specifier-resolution=node ./src/app.ts"
     },
     "dependencies": {
-        "@secure-borrow/common": "workspace:^"
+        "@secure-borrow/common": "workspace:^",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0"
     }
 }
